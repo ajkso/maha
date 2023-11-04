@@ -1,0 +1,482 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+body{
+   background-color: #fff;
+}
+
+.wrapper{
+  display: flex;
+  position: absolute;
+  height: auto;
+}
+
+.logo{
+    width: 200px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 10px;
+    top: 6px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.wrapper .dbd a{
+  color: #fff;
+  padding: 20px;
+  margin: 0px 10px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.wrapper .dbd:hover a{
+  width: 170px;
+  color: #400040;
+}
+
+.dash{
+  width: 170px;
+  padding: 20px;
+  margin: 5px 32px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+}
+
+
+.wrapper .dash{
+  color: #fff;
+}
+
+.wrapper .dash:hover{
+  width: 170px;
+  color: #400040;
+}
+
+.wrapper .DASHBOARD{
+  width: 280px;
+  height: 1200px;
+  color: #400040;
+  background: #8C1DF5;
+  padding: 30px 20px;
+  position: relative;
+}
+
+.wrapper .DASHBOARD h2{
+  color: #400040;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  border-radius: 25px;
+}
+
+.wrapper .DASHBOARD ul li{
+  width: 200px;
+  height: 50px;
+  padding: 15px;
+  margin: 6px;
+  color: #400040;
+  background: #fff;
+  border-radius: 25px;
+}    
+
+.wrapper .DASHBOARD ul li a{
+  color: #400040;
+  display: flex;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.wrapper .DASHBOARD ul li a .fas{
+  width: 25px;
+}
+
+.wrapper .DASHBOARD ul li:hover{
+  background-color: #400040;
+}
+    
+.wrapper .DASHBOARD ul li:hover a{
+  color: #fff;
+}
+
+.wrapper .main_content{
+  width: 100%;
+  margin-left: 0;
+}
+
+.wrapper .main_content .header{
+  padding: 20px;
+  background: #fff;
+  color: #717171;
+  border-bottom: 3px solid #000;
+}
+
+input[type=search]{
+  width: 190px;
+  height: 35px;
+  padding: 8px;
+  left: 78%;
+  top: 9px;
+  font-size: 15px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  background: #fff;
+  color: #ccc;
+  border: 2px solid #29155B;
+  position: absolute;
+}
+
+.logout{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  left: 92%;
+  top: 6px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.logout:hover{
+  color: #5BC4FF;
+}
+
+.wrapper .main_content .header1{
+  padding: 20px;
+  margin: 10px 50px;
+  margin-left: 0;
+  background: #fff;
+  color: #717171;
+  text-align: left;
+  position: absolute;
+}
+
+.date{
+  width: 190px;
+  height: 50px;
+  padding: 13px;
+  margin: 10px 50px;
+  font-size: 15px;
+  border: 2px solid #29155B;
+  border-radius: 10px;
+  position: absolute;
+  left: 75%;
+  top: 75px;
+  background:#fff;
+}
+
+.date:focus{
+  border: 5px solid blue;
+}
+
+.wrapper .main_content .info{
+  margin: 20px;
+  color: #717171;
+  line-height: 25px;
+}
+
+.wrapper .main_content .info div{
+  margin-bottom: 20px;
+}
+
+.SMS{
+  width: 190px;
+  height: 55px;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 480px;
+  font-weight: bold;
+  background: #400040;
+  color: #fff;
+  border-radius: 25px;
+  border-color: #400040;
+  cursor: pointer;
+  position: relative;
+}
+
+.Email{
+    width: 190px;
+    height: 55px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 480px;
+    font-weight: bold;
+    background: #400040;
+    color: #fff;
+    border-radius: 25px;
+    border-color: #400040;
+    cursor: pointer;
+    position: relative;
+}
+
+.Back{
+  width: 195px;
+  height: 55px;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 40px;
+  font-weight: bold;
+  background: #D93600;
+  color: #fff;
+  border-radius: 25px;
+  border-color: #400040;
+  cursor: pointer;
+  position: absolute;
+  overflow: hidden;
+}
+
+.index{
+    width: 190px;
+    height: 55px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 25px 480px;
+    font-weight: bold;
+    background: #400040;
+    color: #fff;
+    border-radius: 25px;
+    border-color: #400040;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.input-field input[type="text"]{
+  width: 228px;
+  margin: 0 90px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #29155B;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #400040;
+  font-weight: bold;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-color: 1px solid #29155B;
+  box-shadow: 0 0 5px 0 #5C4C85;
+}
+
+input[type=text]:is(:focus, :valid)
+{
+  box-shadow: 0 0 5px 0 #5C4C85;
+}
+
+.input-field input[type="text"]{
+  color: #400040;
+}
+
+.input-field input[type="text"]:valid{
+  color: #707070;
+}
+
+.input-field label{
+  width: 100px;
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px;
+ }
+
+ h2{
+  text-align: center;
+  font-size: 20px;
+ }
+
+.Update{
+  width: 180px;
+  height: 55px;
+  padding: 15px;
+  margin: 30px 40px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Update:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+.Submit{
+  width: 180px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 30px 460px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Submit:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+.Save1{
+  width: 180px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 30px 330px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Save:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+.Save{
+  width: 180px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 30px 880px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Save:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+.View{
+  width: 180px;
+  height: 55px;
+  padding: 15px;
+  margin: 30px 40px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.View:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+
+.Download{
+  width: 180px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 30px 880px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Download:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+.Next-SMS{
+  width: 180px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 30px 620px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Next-SMS:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
+
+.Send{
+  width: 180px;
+  height: 55px;
+  padding: 15px 0;
+  margin: 30px 880px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #400040;
+  box-shadow: 0 0 7px 0 #400040;
+  color: #400040;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 25px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.Send:hover{
+  width: 180px;
+  background: #5BC4FF;
+}
